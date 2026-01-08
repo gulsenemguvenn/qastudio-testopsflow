@@ -67,16 +67,15 @@ Bu proje, klasik “önce kod sonra test” yaklaşımı yerine:
 
 ## 📁 Repo Yapısı
 
+```text
 qastudio-testopsflow/
-│
-├── docs/ # Gereksinimler, test planları, senaryolar
-├── backend/ # Spring Boot backend
-├── frontend/ # Angular frontend
-├── api-tests/ # Postman / Newman API testleri
-├── ui-tests/ # Cypress UI testleri
-├── docker/ # Docker & docker-compose
-├── .github/workflows/ # CI pipeline
-└── README.md
+├── docs/                 # Gereksinimler, test planları, senaryolar
+├── backend/              # Spring Boot backend
+├── frontend/             # Angular frontend
+├── api-tests/            # Postman / Newman API testleri
+├── ui-tests/             # Cypress UI testleri
+├── docker/               # Docker & docker-compose
+└── .github/workflows/    # CI pipeline
 
 ---
 
