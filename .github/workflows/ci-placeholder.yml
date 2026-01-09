@@ -1,0 +1,12 @@
+name: CI Placeholder
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Placeholder
+        run: echo "CI will be configured in Sprint 1 (Backend + API tests + UI tests)."
